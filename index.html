@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>game</title>
+<!-- stylesheet-->
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<link rel="stylesheet" href="css/jquery-ui.min.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	<div class="container">
+	<h1 id="title"> Jquery Examples </h1>
+	</div>
+</div>
+<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+	<div class="container">
+	<img id="logo" src="img/192.png" width="192" height="192" alt="logo">
+</div>
+</div>
+
+	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+		<div class="container">
+
+
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+<div class="modal-dialog">
+
+	<!-- Modal content-->
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">Hello</h4>
+		</div>
+		<div class="modal-body">
+			<img src="img/hello.gif">
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		</div>
+	</div>
+
+</div>
+</div>
+
+		  </div>
+
+		</div>
+
+	</div>
+
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div class="container">
+	<button id="hide"> Hide Logo </button>
+	<button id="animate"> Animate the Logo</button>
+    <button id="unanimate"> Undo Animation</button>
+    <button id="butto">Show buttons.</button>
+</div>
+</div>
+</div>
+</div>
+<br>
+
+<div class="container">
+	<div class="row">
+
+    	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="mouse" >
+		<h2> Tracking Mouse</h2>
+		<p><strong> Mouse X Cordinate: </strong> <span id="x"> X cordinate here </span></p>
+		<p><strong> Mouse y Cordinate: </strong> <span id="y"> y cordinate here </span></p>
+
+				<p><strong id="touch">   </strong></p>
+    	</div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="window">
+        <h2> Window Size</h2>
+        <p><strong>window Width:</strong><span id="width"> change when resized</span></p>
+		<p><strong>window Height:</strong><span id="height"> change when resized</span></p>
+		</div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="key">
+        <h2>Key Press</h2>
+        <p><strong> I bet I can guess what key you pressed!</strong> <span id="keypress">  </span></p>
+				<h4 id="srt"><strong> I just sorted your words</strong> </h4>
+				<p id="sorted"> </p>
+				</div>
+    	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="butt" >
+        <h2> Buttons </h2>
+        <button id="hideW"> Hide window size </button>
+				<br>
+        <button id="hideM"> Hide mouse tracking </button>
+				<br>
+				<button id="hideK"> Hide Key press </button>
+				<br>
+				<button id="hideB"> Hide buttons </button>
+				<br>
+				<button id="ranColor"> Double click</button>
+				<br>
+				<button id="backWhite"> Back to White</button>
+        <button id="blink">blink</button>
+				<button id="win"> alert</button>
+				<button type="button" data-toggle="modal" data-target="#myModal">Modal</button>
+				<button id="multiply"> multiply</button>
+                <br>
+        <button id="divide">Divide</button>
+        <button id="square">Square root</button>
+				<button id="sort">sort</button>
+				<button id="current">Time</button>
+				<button id="time">Get Time Stamp</button>
+				<button id="tvideo">Need help with Jquery?</button>
+				    </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="math">
+            <h1> Math</h1>
+            <p> Your number multplied by two is <span id="timesTwo"> </span></p>
+  				<br>
+  			<p id="bytwo"> </p>
+            <p id="squareRoot"> </p>
+
+            </div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="timestamp">
+							<h2> Time Stamp</h2>
+							<p> Time since january 1, 1970:  <span id="stamp"> </span> milliseconds</p>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="ctime">
+						<h2> Current time </h2>
+							<p id="printTime"> </p>
+						</div>
+							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="video">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/EHkL__QIOUU" frameborder="0" allowfullscreen></iframe>
+							</div>
+</div>
+</div>
+<!-- game javascript -->
+<script src="js/game.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- jQuery Library -->
+
+</body>
+</html>
